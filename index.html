@@ -4,15 +4,21 @@
     <link rel="stylesheet" href="resume-css-stylesheet.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Victor Elgersma CV</title>
+    <title>Victor Elgersma Resume</title>
   </head>
   <body>
-    <h1 id="victor-elgersma">Victor Elgersma</h1>
-    <h5 id="elgersmavgmail.com">elgersmav@gmail.com</h5>
+    <div class="centered">
+      <h1>Victor Elgersma</h1>
+      <p>elgersmav@gmail.com</p>
+      <a href="https://github.com/VictorElgersma">github.com/VictorElgersma</a>
+
+      <a href="https://www.youtube.com/@VictorE1030">yt.com/@VictorE1030</a>
+    </div>
+
     <h2 id="education">Education</h2>
     <div class="flex">
       <h3>BA (Hons) Physics</h3>
-      <h3> University of Oxford  </h3>
+      <h3>University of Oxford</h3>
     </div>
     <ul>
       <li>First Class Honours.</li>
@@ -22,12 +28,11 @@
       </li>
     </ul>
     <div class="flex">
-        <h3>European Baccaleaureate</h3>
-        <h3> European School of Brussels IV, Brussels. Belgium  </h3>
+      <h3>European Baccaleaureate</h3>
+      <h3>European School of Brussels IV, Brussels. Belgium</h3>
     </div>
     <h3></h3>
-      
-    </h3>
+
     <ul>
       <li>
         Final grade 92/100. Best academic performance in the English Language
@@ -35,15 +40,11 @@
       </li>
     </ul>
     <h2 id="relevant-work-experience">Relevant Work Experience</h2>
-    <div class="flex">  
-    <h3>
-      Graduate Software Engineer 
-    </h3>
-    <h3>
-         The Hut Group Plc  
-    </h3>
-    </div>  
-    <p> March 2024 - Present  </p>
+    <div class="flex">
+      <h3>Graduate Software Engineer</h3>
+      <h3>The Hut Group Plc</h3>
+    </div>
+    <p><em>March 2024 - Present</em></p>
     <ul>
       <li>
         <p>
@@ -66,32 +67,30 @@
       </li>
     </ul>
     <div class="flex">
-    <h3 id="graduate-software-engineer---accelerator-thg">
-      Graduate Software Engineer - Accelerator
-    </h3>
-    <h3>The Hut Group Plc</h3>
-</div>
-    <p> September 2023 - March 2024  </p>
+      <h3 id="graduate-software-engineer---accelerator-thg">
+        Graduate Software Engineer - Accelerator
+      </h3>
+      <h3>The Hut Group Plc</h3>
+    </div>
+    <em>September 2023 - March 2024</em>
     <ul>
-      <li>Intensive programme designed to turn non-CS graduates into human swiss army knives</li>
+      <li>
+        Intensive programme designed to turn non-CS graduates into human swiss
+        army knives
+      </li>
       <li>
         Covered algorithms, data structures, OOP, unit testing, SQL, RESTful
-        APIs, networking, Docker, containerization,
-        Springboot, React, and industry-standard frameworks
+        APIs, networking, Docker, containerization, Springboot, React, and
+        industry-standard frameworks
       </li>
     </ul>
     <h2 id="other-work-experience">Other Work Experience</h2>
     <div class="flex">
-        <h3>
-            Media Production Assistant
-          </h3>
-          <h3>
-            The Institute of Art and Ideas
-          </h3>
-
+      <h3>Media Production Assistant</h3>
+      <h3>The Institute of Art and Ideas</h3>
     </div>
-   
-    <em> 01/2022 - 09/2023  </em>
+
+    <em> 01/2022 - 09/2023 </em>
     <ul>
       <li>
         Edited talks, debates, and podcasts for distribution on IAI TV and
@@ -106,16 +105,12 @@
       </li>
     </ul>
 
-        <div class="flex">
-            <h3>
-      Member of Senior Film Crew
-    </h3>
+    <div class="flex">
+      <h3>Member of Senior Film Crew</h3>
 
-
-    <h3>HowTheLightGetsIn Festival</h3>
-
-</div>
-<em> May 2023</em>
+      <h3>HowTheLightGetsIn Festival</h3>
+    </div>
+    <em> May 2023</em>
 
     <ul>
       <li>
@@ -125,10 +120,10 @@
     </ul>
     <h2>Volunteering</h2>
     <div class="flex">
-    <h3>English Teacher</h3>
-    <h3>Gotoco</h3>
-</div>
-    <p> July - August 2019  </p>
+      <h3>English Teacher</h3>
+      <h3>Gotoco</h3>
+    </div>
+    <em>2019</em>
     <ul>
       <li>
         Taught English in Lishui, Zhejiang, China tostudents aged 7-14,
@@ -188,13 +183,12 @@
       h1 {
         font-size: 32px;
         margin-bottom: 10px;
-        color: #2e6da4;
         text-align: center;
       }
 
       h2 {
         font-size: 24px;
-        color: #2e6da4;
+        color: black;
         border-bottom: 1px solid #ddd;
         padding-bottom: 5px;
         margin-top: 20px;
@@ -253,6 +247,13 @@
         margin: 20px auto;
         padding: 20px;
         background: #f9f9f9;
+      }
+
+      .centered {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
     </style>
   </body>
